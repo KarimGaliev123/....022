@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Жесты.ру</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner container">
+            <a href="#" class="logo">
+                <img src="./img/Жест рукой машет.png" alt="">
+                <span>Жесты.ру</span>
+            </a>
+
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#courses">Курсы</a></li>
+                    <li><a href="#footer">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-search">
+                <img src="./img/Поиск.png" alt="">
+                <input type="text" placeholder="Поиск">
+            </div>
+
+            <div class="header-actions">
+    <label for="modal-login-toggle" class="btn">Войти</label>
+    
+    <label for="modal-toggle" class="btn1 btn--primary">Зарегистрироваться</label>
+</div>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__inner container">
+                <div class="hero__content">
+                    <span class="hero__badge">
+                        <span class="hero__badge-heart">♥</span>
+                        Общение без барьеров
+                    </span>
+                    <h1 class="title">
+                        Язык жестов -<br>
+                        <span class="hero__title-accent">это не сложно!</span>
+                    </h1>
+                    <p class="description">
+                        Научитесь понимать и быть понятыми.
+                        Откройте для себя новый мир общения,
+                        где нет границ.
+                    </p>
+                    <a href="courses1.html" class="banner-button">
+                        <span class="hero__cta-arrow">→</span>
+                        Выбрать курс
+                    </a>
+                </div>
+                <div class="hero__visual">
+                    <img src="./img/Девушка и парень.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="search-categories">
+            <div class="search-categories__inner container">
+                <div class="search-bar">
+                    <img src="./img/Поиск.png" alt="">
+                    <input type="text" placeholder="Поиск жестов, слов, фраз или словосочетаний...">
+                    <button class="search-button">Найти</button>
+                </div>
+
+                <ul class="categories__list">
+                    <li class="categories__item">
+                        <img src="./img/Слова.png" alt="">
+                        <h3>Слова</h3>
+                        <p>Жесты и значения</p>
+                    </li>
+                    <li class="categories__item">
+                        <img src="./img/Фразы.png" alt="">
+                        <h3>Фразы</h3>
+                        <p>Готовые выражения</p>
+                    </li>
+                    <li class="categories__item">
+                        <img src="./img/Темы.png" alt="">
+                        <h3>Темы</h3>
+                        <p>По категориям</p>
+                    </li>
+                    <li class="categories__item">
+                        <img src="./img/Избранное.png" alt="">
+                        <h3>Избранное</h3>
+                        <p>Сохранённые жесты</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="courses">
+    <div class="courses__inner container">
+        <div class="courses__header">
+            <div id="courses">
+                <h2 class="courses__title">Наши курсы</h2>
+                <p class="courses__subtitle">Выберите подходящий формат обучения и начните прямо сейчас</p>
+            </div>
+            <a href="courses1.html" class="courses__link">Все курсы</a>
+        </div>
+
+        <div class="courses-grid">
+            <div class="course-card">
+                <div class="course-card__top">
+                    <span class="course-number">1</span>
+                    <h3>Базовый курс</h3>
+                </div>
+                <p class="course-card__desc">Начните погружение в обучение языку жестов.</p>
+                <img src="./img/Жест рукой странный.png" alt="" class="course-card__icon">
+                <ul class="course-list">
+                    <li>Пошаговые занятия</li>
+                    <li>Удобный график</li>
+                    <li>Доступ к материалам навсегда</li>
+                </ul>
+                <a href="courses1.html" class="course-button">Подробнее →</a>
+            </div>
+
+            <div class="course-card course-card--green">
+                <div class="course-card__top">
+                    <span class="course-number">2</span>
+                    <h3>Групповой курс</h3>
+                </div>
+                <p class="course-card__desc">Обучение в группе онлайн</p>
+                <img src="./img/Ноут.png" alt="" class="course-card__icon">
+                <ul class="course-list">
+                    <li>Живое взаимодействие</li>
+                    <li>Практика в группе</li>
+                    <li>Поддержка куратора</li>
+                </ul>
+                <a href="courses1.html" class="course-button course-button--green">Подробнее →</a>
+            </div>
+
+            <div class="course-card">
+                <div class="course-card__top">
+                    <span class="course-number">3</span>
+                    <h3>Индивидуальный курс</h3>
+                </div>
+                <p class="course-card__desc">Персональная программа с преподавателем</p>
+                <img src="./img/Девушка соло.png" alt="" class="course-card__icon">
+                <ul class="course-list">
+                    <li>Гибкий план обучения</li>
+                    <li>Обратная связь</li>
+                    <li>Максимальный результат</li>
+                </ul>
+                <a href="courses1.html" class="course-button">Подробнее →</a>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="features">
+<div class="features">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <img src="./img/Щит.png" alt="" class="feature-item__icon">
+                    <div>
+                        <h4>Удобный формат</h4>
+                        <p>Онлайн в удобное для вас время</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="./img/чел.png" alt="" class="feature-item__icon">
+                    <div>
+                        <h4>Опытные преподаватели</h4>
+                        <p>Сертифицированные специалисты</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="./img/Темы.png" alt="" class="feature-item__icon">
+                    <div>
+                        <h4>Сертификат</h4>
+                        <p>После успешного прохождения</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="./img/Сердце.png" alt="" class="feature-item__icon">
+                    <div>
+                        <h4>Поддержка 24/7</h4>
+                        <p>Мы всегда рядом</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="./img/Избранное.png" alt="" class="feature-item__icon">
+                    <div>
+                        <h4>Доступ к материалам</h4>
+                        <p>Навсегда</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <footer id="footer" class="footer">
+    <div class="footer__inner container">
+        <div class="footer__top">
+            <div class="footer__about">
+                <h3 class="footer__about-title">О сайте</h3>
+                <p class="footer__about-text">
+                    Жесты.ру – платформа для изучения языка жестов. Мы помогаем
+                    освоить новый способ коммуникации с нуля: от базового курса и
+                    групповых занятий онлайн до индивидуальной программы с
+                    преподавателем. Наш проект делает погружение в мир жестового
+                    языка доступным, удобным и по-настоящему живым.
+                </p>
+            </div>
+            <div class="footer__subscribe">
+                <p class="footer__subscribe-title">Подпишись, изучай<br>язык жестов с нами.</p>
+                <div class="footer__buttons">
+                    <a href="#" class="footer-button">Telegram</a>
+                    <a href="#" class="footer-button">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__divider"></div>
+
+        <div class="footer__bottom">
+            <nav class="footer__nav">
+                <a href="#top" class="footer__link">Главная</a>
+                <a href="#courses" class="footer__link">Курсы</a>
+            </nav>
+            <div class="footer__contacts">
+                <a href="mailto:karimgaliev1529@gmail.com" class="footer__contact">karimgaliev1529@gmail.com</a>
+                <a href="tel:+79610488885" class="footer__contact">+7 (961)048 88 85</a>
+            </div>
+        </div>
+    </div>
+</footer>
+        <input type="checkbox" id="modal-login-toggle" class="modal-login-toggle">
+
+<div class="modal" id="modal-login">
+    
+    <label for="modal-login-toggle" class="modal__overlay"></label>
+    
+    <div class="modal__content">
+
+        <a href="index.html" class="modal__back">
+            <img src="./img/Стрелка.png" alt="Назад">
+        </a>
+
+        <img src="./img/Слова.png" alt="" class="modal__decor modal__decor--1">
+        <img src="./img/Фразы.png" alt="" class="modal__decor modal__decor--2">
+        <img src="./img/Сердце.png" alt="" class="modal__decor modal__decor--3">
+        <img src="./img/Избранное.png" alt="" class="modal__decor modal__decor--4">
+        <img src="./img/Темы.png" alt="" class="modal__decor modal__decor--5">
+
+        <h2 class="modal__title">Вход</h2>
+
+        <form class="modal-form" action="index.html">
+            <div class="modal-form__group">
+                <label for="login-email">Почта</label>
+                <input type="email" id="login-email" name="email" placeholder="Почта" required>
+            </div>
+            
+            <div class="modal-form__group">
+                <label for="login-password">Пароль</label>
+                <input type="password" id="login-password" name="password" placeholder="••••••••••" required>
+            </div>
+
+            <a href="#" class="modal-form__forgot">Забыл пароль</a>
+
+
+            <a href="index.html" class="modal-form__btn">Войти</a>
+        </form>
+
+        <img src="./img/Девушка и парень.png" alt="" class="modal__bg-img">
+    </div>
+</div>
+        <input type="checkbox" id="modal-toggle" class="modal-toggle">
+
+<div class="modal" id="modal-register">
+
+    <label for="modal-toggle" class="modal__overlay"></label>
+    
+    <div class="modal__content">
+
+        <a href="index.html" class="modal__back">
+            <img src="./img/Стрелка.png" alt="Назад">
+        </a>
+
+        <img src="./img/Слова.png" alt="" class="modal__decor modal__decor--1">
+        <img src="./img/Фразы.png" alt="" class="modal__decor modal__decor--2">
+        <img src="./img/Сердце.png" alt="" class="modal__decor modal__decor--3">
+        <img src="./img/Избранное.png" alt="" class="modal__decor modal__decor--4">
+        <img src="./img/Темы.png" alt="" class="modal__decor modal__decor--5">
+
+        <h2 class="modal__title">Регистрация</h2>
+
+        <form class="modal-form" action="#" method="POST">
+            <div class="modal-form__group">
+                <label for="reg-name">ФИО</label>
+                <input type="text" id="reg-name" name="name" placeholder="ФИО" required>
+            </div>
+            
+            <div class="modal-form__group">
+                <label for="reg-email">Почта</label>
+                <input type="email" id="reg-email" name="email" placeholder="Почта" required>
+            </div>
+            
+            <div class="modal-form__group">
+                <label for="reg-password">Пароль</label>
+                <input type="password" id="reg-password" name="password" placeholder="••••••••••" required>
+            </div>
+
+            <a href="index.html" class="modal-form__btn">Зарегистрироваться</a>
+        </form>
+
+        <img src="./img/Девушка и парень.png" alt="" class="modal__bg-img">
+    </div>
+</div>
+        
+    </main>
+</body>
+</html> 
