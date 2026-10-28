@@ -1,0 +1,204 @@
+// Фон страницы
+.courses-page {
+  padding-block: 40px;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+// Подложка (градиент, как на макете)
+.courses-page__wrap {
+  // Градиент имитирует цветные пятна на фоне
+  background: linear-gradient(135deg, #e6e0ff 0%, #f4ebff 40%, #e3f5f0 70%, #ffeaf3 100%);
+  border-radius: 40px;
+  padding: 50px 40px 60px;
+  position: relative;
+  border: 2px solid #dcd6f7; // Легкая фиолетовая рамка вокруг всей подложки
+}
+
+// Кнопка "Назад"
+.courses-page__back {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  
+  img {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+// Шапка с заголовком
+.courses-page__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.courses-page__title {
+  font-size: 52px;
+  font-weight: 800;
+  color: #6c5ce7;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin: 0;
+}
+
+.courses-page__head-icon {
+  object-fit: contain;
+  position: absolute;
+  
+  &--1 { width: 35px; left: calc(50% - 210px); top: 5px; transform: rotate(-10deg); }
+  &--2 { width: 30px; left: calc(50% - 165px); top: -5px; transform: rotate(5deg); }
+  &--3 { width: 40px; right: calc(50% - 220px); top: 0px; transform: rotate(15deg); }
+}
+
+// Сетка
+.courses-page__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+// САМА КАРТОЧКА
+.course-card-page {
+  background-color: rgba(255, 255, 255, 0.4); // Полупрозрачный белый фон
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 480px;
+  border: none; // Убираем жесткую рамку
+  
+  &--mint {
+    background-color: rgba(220, 245, 235, 0.5); // Полупрозрачный мятный
+  }
+}
+
+// БЕЛАЯ ПЛАШКА С НАЗВАНИЕМ (с синей обводкой)
+.course-card-page__label {
+  background-color: #fff;
+  border: 1.5px solid #6c5ce7;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1a1a2e;
+    line-height: 1.3;
+    margin: 0;
+  }
+}
+
+// ТЕКСТ ОПИСАНИЯ
+.course-card-page__text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  text-align: center; // Выравнивание по центру
+  font-weight: 500;
+}
+
+// СПИСОК
+.course-card-page__list {
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
+  flex-grow: 1; // Прижимает картинку и кнопку вниз
+  
+  li {
+    font-size: 13px;
+    color: #555;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    
+    &::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #6c5ce7;
+      font-weight: 700;
+    }
+  }
+}
+
+// КАРТИНКИ
+.course-card-page__pic {
+  object-fit: contain;
+  align-self: center;
+  margin-bottom: 20px;
+  
+  &--1 { width: 100px; height: 100px; }
+  &--2 { width: 130px; height: 130px; }
+  &--3 { width: 110px; height: 110px; }
+}
+
+// КНОПКА "ВЫБРАТЬ"
+.course-card-page__btn {
+  display: block;
+  background-color: #6c5ce7;
+  color: #fff;
+  padding-block: 12px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%; // На всю ширину, как на макете
+  text-decoration: none;
+  transition: background-color 0.2s;
+  margin-top: auto;
+  
+  &:hover {
+    background-color: #5a4bd6;
+  }
+}
+
+// НИЖНЯЯ ЧАСТЬ
+.courses-page__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.courses-page__bottom-icons-left,
+.courses-page__bottom-icons-right {
+  display: flex;
+  gap: 15px;
+}
+
+.courses-page__bottom-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+// КНОПКА "ОФОРМИТЬ"
+.courses-page__cta {
+  background-color: #6c5ce7;
+  color: #fff;
+  padding-block: 18px;
+  padding-inline: 120px; 
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s;
+  
+  &:hover {
+    background-color: #5a4bd6;
+  }
+}

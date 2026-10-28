@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope";
+    font-weight: 400;
+    color: #1a1a2e;
+    background-color: #fafafa;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 1280px;
+    padding-inline: 24px;
+}

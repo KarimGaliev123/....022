@@ -1,0 +1,42 @@
+<input type="checkbox" id="modal-toggle" class="modal-toggle">
+
+<div class="modal" id="modal-register">
+
+    <label for="modal-toggle" class="modal__overlay"></label>
+    
+    <div class="modal__content">
+
+        <a href="index.html" class="modal__back">
+            <img src="./img/Стрелка.png" alt="Назад">
+        </a>
+
+        <img src="./img/Слова.png" alt="" class="modal__decor modal__decor--1">
+        <img src="./img/Фразы.png" alt="" class="modal__decor modal__decor--2">
+        <img src="./img/Сердце.png" alt="" class="modal__decor modal__decor--3">
+        <img src="./img/Избранное.png" alt="" class="modal__decor modal__decor--4">
+        <img src="./img/Темы.png" alt="" class="modal__decor modal__decor--5">
+
+        <h2 class="modal__title">Регистрация</h2>
+
+        <form class="modal-form" action="#" method="POST">
+            <div class="modal-form__group">
+                <label for="reg-name">ФИО</label>
+                <input type="text" id="reg-name" name="name" placeholder="ФИО" required>
+            </div>
+            
+            <div class="modal-form__group">
+                <label for="reg-email">Почта</label>
+                <input type="email" id="reg-email" name="email" placeholder="Почта" required>
+            </div>
+            
+            <div class="modal-form__group">
+                <label for="reg-password">Пароль</label>
+                <input type="password" id="reg-password" name="password" placeholder="••••••••••" required>
+            </div>
+
+            <a href="index.html" class="modal-form__btn">Зарегистрироваться</a>
+        </form>
+
+        <img src="./img/Девушка и парень.png" alt="" class="modal__bg-img">
+    </div>
+</div>

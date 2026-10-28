@@ -1,0 +1,84 @@
+.hero {
+    background-color: #f5f3ff;
+    border-radius: 0 0 32px 32px;
+}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 64px;
+    gap: 40px;
+}
+
+.hero__content {
+    max-width: 520px;
+}
+
+.hero__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ede9fe;
+    color: #6c5ce7;
+    padding-block: 8px;
+    padding-inline: 18px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.hero__badge-heart {
+    color: #6c5ce7;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -1.5px;
+    margin-bottom: 24px;
+}
+
+.hero__title-accent {
+    color: #6c5ce7;
+}
+
+.description {
+    font-size: 17px;
+    line-height: 1.55;
+    color: #555;
+    margin-bottom: 30px;
+    max-width: 440px;
+}
+
+.banner-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #6c5ce7;
+    color: #fff;
+    padding-block: 16px;
+    padding-inline: 32px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.hero__cta-arrow {
+    font-size: 18px;
+}
+
+.hero__visual {
+    flex-shrink: 0;
+    max-width: 800px;
+}
+
+.hero__visual img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
